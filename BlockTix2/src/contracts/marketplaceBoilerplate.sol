@@ -36,7 +36,7 @@ contract marketPlaceBoilerPlate is ReentrancyGuard {
         address owner,
         uint256 price,
         bool sold
-    );
+     );
      
      event MarketItemSold (
          uint indexed itemId,
